@@ -70,7 +70,7 @@ dotnet run
 ## 🐳 Executar com Docker (API apenas)
 ```bash
 # compilar imagem
-docker build -t phone-directory-api .
+docker build -t phone-api .
 
 # executar
 Docker run -p 8080:80 \
