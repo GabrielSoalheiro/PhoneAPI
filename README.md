@@ -23,6 +23,7 @@ API REST para gerenciamento de contatos telefônicos, desenvolvida em **.NET 8**
 ```text
 PhoneAPI/
 │  Phone.sln
+│  Dockerfile
 │  docker-compose.yml
 │
 └─ src
