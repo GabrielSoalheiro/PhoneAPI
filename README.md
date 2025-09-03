@@ -23,6 +23,7 @@ API REST para gerenciamento de contatos telefônicos, desenvolvida em **.NET 8**
 ```text
 PhoneAPI/
 │  Phone.sln
+│  Dockerfile
 │  docker-compose.yml
 │
 └─ src
@@ -69,7 +70,7 @@ dotnet run
 ## 🐳 Executar com Docker (API apenas)
 ```bash
 # compilar imagem
-docker build -t phone-directory-api .
+docker build -t phone-api .
 
 # executar
 Docker run -p 8080:80 \
