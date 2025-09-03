@@ -7,12 +7,12 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
 # Copie a solução e restaure dependências 
-COPY PhoneDirectoryAPI.sln ./
+COPY PhoneAPI.sln ./
 COPY src ./src
-RUN dotnet restore "src/PhoneDirectory.API/PhoneDirectory.API.csproj"
+RUN dotnet restore "src/Phone.API/Phone.API.csproj"
 
 # Compile em Release
-RUN dotnet publish "src/PhoneDirectory.API/PhoneDirectory.API.csproj" \
+RUN dotnet publish "src/Phone.API/Phone.API.csproj" \
     -c Release -o /app/publish --no-restore
 
 # 2️⃣ Stage: Runtime
@@ -31,4 +31,4 @@ ENV ASPNETCORE_URLS=http://+:80 \
 EXPOSE 80
 
 # Ponto de entrada
-ENTRYPOINT ["dotnet", "PhoneDirectory.API.dll"]
+ENTRYPOINT ["dotnet", "Phone.API.dll"]
