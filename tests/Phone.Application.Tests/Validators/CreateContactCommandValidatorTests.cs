@@ -1,10 +1,10 @@
 ﻿using FluentValidation.TestHelper;
 using Moq;
 using Phone.Application.Commands.CreateContact;
-using Phone.Domain.Interfaces;
 using Phone.Application.DTOs;
-using Xunit;
+using Phone.Domain.Interfaces;
 using System.Collections.Generic;
+using Xunit;
 
 namespace Phone.Application.Tests.Validators;
 

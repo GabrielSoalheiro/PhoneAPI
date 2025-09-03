@@ -1,6 +1,5 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
-using Phone.Domain.Entities;
 
 namespace Phone.Domain.Entities;
 

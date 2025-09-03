@@ -1,11 +1,10 @@
 ﻿// Program.cs
 using FluentValidation;
-using MediatR;
 using Microsoft.OpenApi.Models;
-using Phone.Behaviors;          // ValidationBehavior
-using Phone.Infrastructure;     // AddInfrastructure
 using Phone.Application.Mappings;           // ContactMappingProfile
 using Phone.Application.Queries.GetAllContacts;
+using Phone.Behaviors;          // ValidationBehavior
+using Phone.Infrastructure;     // AddInfrastructure
 using Serilog;
 using System.Reflection;
 

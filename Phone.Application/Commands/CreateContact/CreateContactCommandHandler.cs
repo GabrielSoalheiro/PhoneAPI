@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
 using MediatR;
+using Phone.Application.DTOs;
 using Phone.Domain.Entities;
 using Phone.Domain.Interfaces;
-using Phone.Application.DTOs;
 
 namespace Phone.Application.Commands.CreateContact;
 

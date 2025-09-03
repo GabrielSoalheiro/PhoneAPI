@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using Phone.Domain.Entities;
 using Phone.Application.DTOs;
+using Phone.Domain.Entities;
 
 namespace Phone.Application.Mappings;
 
@@ -10,7 +10,7 @@ public class ContactMappingProfile : Profile
     {
         // Saída
         CreateMap<Contact, ContactDto>();
-        CreateMap<Address, AddressDto>();          
+        CreateMap<Address, AddressDto>();
 
         // Entrada
         CreateMap<CreateAddressDto, Address>();

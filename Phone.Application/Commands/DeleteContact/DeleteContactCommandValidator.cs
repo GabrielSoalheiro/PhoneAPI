@@ -1,5 +1,4 @@
 ﻿using FluentValidation;
-using Phone.Application.Commands.DeleteContact;
 
 namespace Phone.Application.Commands.DeleteContact;
 

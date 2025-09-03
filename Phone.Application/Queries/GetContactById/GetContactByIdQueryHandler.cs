@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using MediatR;
-using Phone.Domain.Interfaces;
 using Phone.Application.DTOs;
+using Phone.Domain.Interfaces;
 
 namespace Phone.Queries.GetContactById;
 

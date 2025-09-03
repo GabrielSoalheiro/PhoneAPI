@@ -1,8 +1,6 @@
 ﻿using MongoDB.Driver;
 using Phone.Domain.Entities;
 using Phone.Domain.Interfaces;
-using Phone.Domain.Entities;
-using Phone.Domain.Interfaces;
 
 namespace Phone.Infrastructure.Repositories;
 

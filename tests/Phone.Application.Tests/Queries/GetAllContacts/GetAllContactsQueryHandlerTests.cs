@@ -1,14 +1,14 @@
 ﻿using AutoMapper;
 using FluentAssertions;
 using Moq;
-using Phone.Domain.Entities;
-using Phone.Domain.Interfaces;
 using Phone.Application.Mappings;
 using Phone.Application.Queries.GetAllContacts;
-using Xunit;
+using Phone.Domain.Entities;
+using Phone.Domain.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Xunit;
 
 namespace Phone.Application.Tests.Queries.GetAllContacts;
 
